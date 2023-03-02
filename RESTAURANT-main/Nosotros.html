@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>JYS México</title>
+
+    <!-- Normalize V8.0.1 -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <!-- MDBootstrap V5 -->
+    <link rel="stylesheet" href="./css/mdb.min.css" />
+
+    <!-- Font Awesome V5.15.1 -->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!-- Sweet Alert V10.13.0 -->
+    <script src="./js/sweetalert2.js"></script>
+
+    <!-- General Styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="nosotros.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header full-box">
+      <div class="header-brand text-center full-box">
+        <a href="index.html">
+          <img src="./assets/img/1.jpeg" alt="logo" class="img-fluid" style="color: white;" />
+        </a>
+      </div>
+
+      <div class="header-options full-box">
+        <nav class="header-navbar full-box poppins-regular font-weight-bold">
+          <ul class="list-unstyled full-box">
+            <li>
+              <a href="menu.html" style="color: #fff"
+                >Menú<span class="full-box"></span
+              ></a>
+            </li>
+            <li>
+              <a href="menu.html" style="color: #fff"
+                >Platillo<span class="full-box"></span
+              ></a>
+            </li>
+            <li>
+              <a href="menu.html" style="color: #fff"
+                >Sobre nosotros<span class="full-box"></span
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-button full-box text-center btn-login-menu">
+          <a href="Login.html"
+            ><i
+              class="fas fa-user-alt"
+              data-mdb-toggle="tooltip"
+              data-mdb-placement="bottom"
+              title="Login"
+            ></i
+          ></a>
+          <div class="div-bordered popup-login">
+            <!-- Inicio de sesion -->
+            <span class="text-center poppins-regular font-weight-bold"
+              >Inicio de sesión</span
+            >
+            <form class="full-box" action="">
+              <div class="form-outline mb-4">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="login_email_cliente"
+                  id="login_email"
+                  maxlength="70"
+                  required=""
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-outline mb-4">
+                <input
+                  type="password"
+                  class="form-control"
+                  name="login_clave_cliente"
+                  id="login_password"
+                  pattern="[a-zA-Z0-9$@.-]{7,100}"
+                  maxlength="100"
+                  required=""
+                  placeholder="Contraseña"
+                />
+              </div>
+              <p class="text-center">
+                <button class="btn btn-info btn-sm w-100">
+                  Iniciar sesión
+                </button>
+              </p>
+            </form>
+            <hr />
+            <p class="text-center full-box">
+              ¿No tienes cuenta? <a href="registration.html">Regístrate aquí</a>
+            </p>
+          </div>
+        </div>
+        <a
+          href="bag.html"
+          class="header-button full-box text-center"
+          data-mdb-toggle="tooltip"
+          data-mdb-placement="bottom"
+          title="Carrito"
+        >
+          <i class="fas fa-shopping-bag"></i>
+          <span class="badge bg-warning rounded-pill bag-count">2</span>
+        </a>
+      </div>
+    </header>
+    <div>
+      <h1>Sobre nosotros</h1>
+      <div class="hi">
+        <div class="nosotros">
+          <img
+            src="./assets/img/sonia.jpeg"
+            alt=""
+            width="150px"
+            height="200px"
+          />
+          <img
+            src="./assets/img/yoci.jpeg"
+            alt=""
+            width="150px"
+            height="250px"
+          />
+          <img
+            src="./assets/img/bren.jpeg"
+            alt=""
+            width="150px"
+            height="200px"
+          />
+        </div>
+      </div>
+      <p>
+        Somos un restaurante innovador que ofrece un ambiente agradable,
+        tranquilo, estilos atractivos y unicos para nuestros clientes
+        complaciendo el gusto de los que buscan degustar de los diferentes
+        platillos mexicanos.
+      </p>
+      <h2>Nuestros objetivos</h2>
+      <p>
+        Brindar a nuestros clientes una experiencia gastronomica única generando
+        una gran satisfación de su paladar con los distintos platillos que se
+        ofrecen en nuestro restaurante.
+      </p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <ul class="list-unstyled">
+              <li>
+                <h5 class="font-weight-bold">
+                  <i class="far fa-copyright"></i> JYS México
+                </h5>
+              </li>
+              <li>Todos los derechos reservados</li>
+              <li><a href="Terminos.html"> Terminos y condiciones</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <ul class="list-unstyled">
+              <li><h5 class="font-weight-bold">El Salvador</h5></li>
+              <li>
+                <i class="fas fa-map-marker-alt fa-fw"></i> Chalatenango, El
+                Salvador, Centro América
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <ul class="list-unstyled">
+              <li><h5 class="font-weight-bold">Siguenos en:</h5></li>
+              <li>
+                <a href="#" class="footer-link" target="_blank">
+                  <i class="fab fa-facebook fa-fw"></i> Facebook
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link" target="_blank">
+                  <i class="fab fa-instagram fa-fw"></i>
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link" target="_blank">
+                  <i class="fab fa-whatsapp fa-fw"></i>
+                  whatsapp
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MDBootstrap V5 -->
+    <script src="./js/mdb.min.js"></script>
+
+    <!-- General scripts -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

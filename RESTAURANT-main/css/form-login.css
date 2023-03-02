@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;   
+}
+.opciones.registrarme{
+    color: white;
+    text-decoration: solid;
+    align-items: center;
+}
+.forma input{
+    color: beige;
+}
+.forma input:hover{
+    color: black;
+}
+.forma{
+    background-color: #878787;
+    border-color: black;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    margin-left: 30%;
+    min-width: 300px;
+    border: 10px;
+    border-color: black;
+    border-radius: 10%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+.forma img{
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+.forma button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78px;
+    background: transparent;
+    color:white;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    border-bottom-left-radius: 5vh;
+}
+.text{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.forma .login input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: none;
+    margin: 3%;
+    height: 60px;
+    width: 75%;
+    padding-left: 50px;
+    border: 1px solid black;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 30px;
+    outline: none;
+    margin: 25px 15px 15px 50px;
+}
+.forma input[type="text"]::placeholder{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: beige;
+    border-right: 30px;
+    border-left: 30px;
+}
+.forma input[type="password"]::placeholder{
+     margin-top: 20px;
+     font-size: 1.5rem;
+     color: beige;
+     border-right: 30px;
+     border-left: 30px;
+
+}
+.forma input:hover{
+    transition: .5s;
+    border: 1px solid white;
+}
+.forma button{
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+    background-color: transparent;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.forma button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(6, 6, 6);
+    border: 2px solid black;  
+}
+#principal{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/262/959/small/cartoon-red-spice-menu.jpg);
+}
+.forma .opciones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.forma .opciones .registrarse{
+    display: flex;
+    justify-content: center;
+    margin:10px 0 1px 0;
+}
+.forma .opciones .olvide{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.forma .opciones .registrarse a,
+.forma .opciones .olvide a{
+text-decoration: none;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-bottom: 15px;
+color: white;
+}

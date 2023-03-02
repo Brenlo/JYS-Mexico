@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form-login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="forma">
+      <img src="login1.png" alt="user" />
+      <form class="login" onsubmit="validar()">
+        <input type="text" id="email" placeholder="Email o usuario" />
+        <input type="password" id="pass" placeholder="Contraseña" />
+        <input type="submit" value="Iniciar sesion">
+      </form>
+      <div class="opciones">
+        <div class="registrarse">
+          <p class="link"><a href="registration.html">Registrarme</a></p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function validar() {
+        const mail = document.getElementById("email").value;
+        const contra = document.getElementById("pass").value;
+
+        if (mail == "br209847@gmail.com" && contra == "123456789") {
+         window.location.href = 'menu.html'
+         alert("usuario correcto");
+         console.log("hola");
+        } else {
+          alert("Usuario o contraseña incorrectos");
+        }
+      }
+    </script>
+    
+  </body>
+</html>
